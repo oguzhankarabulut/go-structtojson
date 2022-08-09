@@ -138,6 +138,7 @@ func fill(ll map[string]string) map[string]interface{} {
 		f, ok := random[v]
 		if ok {
 			r[k] = f()
+			continue
 		}
 		if !ok && (v[:2] == "[]") {
 			r[k] = randomSlice(v[2:])
