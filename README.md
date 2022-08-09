@@ -1,6 +1,6 @@
 ## GO Struct to JSON
 
-I hate creating example JSON object fit to struct when testing anything especially working with huge structs. So I developed this tool. It takes struct as a string cli argument then print example JSON object with random values.
+I hate creating example JSON object fit to struct when testing something especially working with huge structs. So I developed this tool. It takes struct as a string cli argument then print example JSON object with random values.
 
 PS: It does not work with nested data types.
 
